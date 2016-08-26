@@ -3,6 +3,54 @@
 #**************************************************************
 
 google news api
+地域版の指定
+
+日本版のニュースを取得するには「ned=jp」とすれば良いと推測されますが、日本版がRSSに対応しないためか、そのように指定するとRSSではないページへリダイレクトされてしまいます。よって「hl=ja」として、言語で日本語を指定します。
+
+http://news.google.com/news?ned=jp&hl=ja&output=rss (日本版/日本語)
+http://news.google.com/news?ned=us&hl=ja&output=rss (アメリカ版/日本語)
+http://news.google.com/news?ned=it&hl=ja&output=rss (イタリア版/日本語)
+
+参考
+http://d.hatena.ne.jp/tessy3/20110115/1295063878
+
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&topic=p
+とすると政治のニュースだけになる。オプションとニュースの種類の対応はこんな感じ。
+
+
+オプション    ニュースの種類
+（リンク先はRSSのフィードのアドレス）
+ir	ピックアップ
+y	社会
+w	国際
+b	ビジネス
+p	政治
+e	エンタメ
+s	スポーツ
+t	テクノロジー
+po	話題のニュース
+
+これ以外に、特定のキーワードを含むニュースも&q=に続いてキーワードを書くことでRSS配信できる。
+
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=キーワード
+
+たとえば、阪神という単語の入ったニュースを配信したければ、
+
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=阪神
+
+
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=野球and(阪神orオリックス)
+
+
+ターゲット
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=(酒orアルコール)and(事故or事件)
+
+http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=アルコールand(事故or事件)
+
+
+
+
+
 
 
 
