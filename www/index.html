@@ -5,25 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     
-    <script>
-        https_flg = true; //http access 結果FLG 成功=true　失敗=false
-    </script>
-    
     <script src="components/loader.js"></script>
     
     <script src="components/https.js"></script>
     
-    <script src="components/aoki_trans.js"></script>
-    <script src="components/camera_page.js"></script>
-    <script src="components/photo_page.js"></script>
-    <script src="components/result_page.js"></script>
-    <script src="components/setting_page.js"></script>
+    <script src="components/aoki.js"></script>
+    <script src="components/news.js"></script>
     
     
     
     <link rel="stylesheet" href="components/loader.css">
     
-    <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/style.css">
     
     <script>
@@ -40,20 +32,26 @@
         });
     });
     
-    module.controller('camera__controller', function($scope) {
+    module.controller('bbs__controller', function($scope) {
         ons.ready(function() {
             class_text();
         });
     });
     
-    module.controller('photo__controller', function($scope) {
+    module.controller('birthday__controller', function($scope) {
         ons.ready(function() {
             class_text();
         });
     });
     
     
-    module.controller('result__controller', function($scope) {
+    module.controller('blogs__controller', function($scope) {
+        ons.ready(function() {
+            class_text();
+        });
+    });
+    
+    module.controller('diary__controller', function($scope) {
         ons.ready(function() {
             class_text();
         });
@@ -65,12 +63,17 @@
         });
     });
     
-    module.controller('top__controller', function($scope) {
+    module.controller('news__controller', function($scope) {
         ons.ready(function() {
             class_text();
         });
     });
     
+    module.controller('top__controller', function($scope) {
+        ons.ready(function() {
+            class_text();
+        });
+    });
     </script>
 </head>
 <body>
