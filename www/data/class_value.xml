@@ -2,27 +2,31 @@
 <root>
     <ja>
         <top_page>トップページ</top_page>
-        <camera>カメラ</camera>
-        <photo>写真</photo>
-        <result>結果</result>
+        <news>ニュース</news>
+        <blogs>ブログ</blogs>
+        <bbs>掲示板</bbs>
+        <birthday>誕生日</birthday>
+        <diary>日記</diary>
         <setting>設定</setting>
-        <cmd_trans>タップで翻訳</cmd_trans>
         <menu>メニュー</menu>
         <exit>終了</exit>
-        <to_lang>翻訳先</to_lang>
-        <from_lang>翻訳元</from_lang>
+        <lang>言語</lang>
+        <select_lang>言語選択</select_lang>
+        <exit>終了</exit>
     </ja>
     <en>
         <top_page>Translate by image</top_page>
-        <camera>Camera</camera></camera>
-        <photo>Photo</photo>
-        <result>Result</result>
+        <news>News</news>
+        <blogs>Blogs</blogs>
+        <bbs>Bbs</bbs>
+        <birthday>Birthday</birthday>
+        <diary>Diary</diary>
         <setting>Setting</setting>
-        <exit>Exit</exit>
-        <cmd_trans>Trans by tap</cmd_trans>
         <menu>Menu</menu>
-        <to_lang>Translation destination</to_lang>
-        <from_lang>Translation origin</from_lang>
+        <exit>Exit</exit>
+        <lang>Language</lang>
+        <select_lang>Select your language</select_lang>
+        <exit>Exit</exit>
     </en>
     
     

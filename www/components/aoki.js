@@ -4,7 +4,7 @@
 
 //public var
 var l_from = 'en';//ここで言語を設定する
-var l_to = 'ja';//ここで言語を設定する
+var l_to = 'ja';//ここで言語を設定する Alcoholism ではこちらを言語設定で使用する
 
 
 var p_url = 'https://net-navi.cc/trans/index.php'; //Server
@@ -100,7 +100,7 @@ function class_text(){
             });
         },
         error:function() {
-            console.log('class_value.xml load error')
+            console.log('class_value.xml load error');
         }
     });
 }

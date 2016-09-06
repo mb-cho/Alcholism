@@ -11,27 +11,14 @@
         </div>
         <div class="center"><span class="setting">Setting</span></div>
     </ons-toolbar>
-    
-    <div style="margin-left:10%;">
-    <span class="to_lang">Setting</span>
-    <select id="to_lang">
-    </select>
-    </div>
-    
-    <div style="margin-left:10%;">
-    <span class="from_lang">Setting</span>
-    <select id="from_lang">
-    </select>
-    </div>
-    
-<!--
-        <ons-list id="target_lang">
-    
-          <ons-list-item modifier="tappable">Menu 1</ons-list-item>
-          <ons-list-item modifier="tappable">Menu 2</ons-list-item>
-          <ons-list-item modifier="tappable">Menu 3</ons-list-item>
-
+        
+        <ons-list>
+          <ons-list-item class="select_lang">Select your language</ons-list-item>
         </ons-list>
--->
+        
+        <ons-list>
+          <ons-list-item modifier="tappable" class="target_lang" val="ja">日本語</ons-list-item>
+          <ons-list-item modifier="tappable" class="target_lang" val="en">English</ons-list-item>
+        </ons-list>
     </ons-page>
 </ons-navigator>
