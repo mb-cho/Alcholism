@@ -46,6 +46,9 @@
 #ターゲット
 #http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=(酒orアルコール)and(事故or事件)
 
+
+#http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=(酒orアルコール)and(事故or事件)
+
 #http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=アルコールand(事故or事件)
 
 

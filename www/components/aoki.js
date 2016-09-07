@@ -6,6 +6,8 @@
 var l_from = 'en';//ここで言語を設定する
 var l_to = 'ja';//ここで言語を設定する Alcoholism ではこちらを言語設定で使用する
 
+var news_url_ja = 'http://news.google.com/news?hl=ja&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=(酒orアルコール)and(事故or事件)';
+var news_url_en = 'http://news.google.com/news?hl=us&ned=us&ie=UTF-8&oe=UTF-8&output=rss&q=(酒orアルコール)and(事故or事件)';
 
 var p_url = 'https://net-navi.cc/trans/index.php'; //Server
 
